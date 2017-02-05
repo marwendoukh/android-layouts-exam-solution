@@ -5,4 +5,4 @@ I made a tutorial about Android layouts , and at the end of the tutorial I asked
 
 This XML file is the solution of this exam.
 
-The [tutorial link] ()
+The [tutorial link] (https://marwendoukh.wordpress.com/2017/02/06/android-layouts-tutorial/)
