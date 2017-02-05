@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <!-- print Hello -->
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Hello"
+    android:textSize="40sp"
+    android:gravity="center_horizontal"
+    />
+
+        <!-- A horizontal LinearLayout that contains 2 buttons , an ImageView and a "Hello again" TextView-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <!-- A vertical LinearLayout that contains 2 Buttons-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--The first Button-->
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Button 1"
+           />
+                <!-- The second Button-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button 2"
+            />
+            </LinearLayout>
+
+            <!-- An ImageView that contains the Andoid logo (next to the 2 Buttons) -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"/>
+
+            <!-- Hellow again TextView-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hello again"
+                android:background="#FF0000"
+                android:gravity="center"
+                android:textSize="40sp"
+                />
+
+        </LinearLayout>
+
+
+        <!-- A horizontal LinearLayout that contains Buttons with custom distribution-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="6"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Button3"
+                android:textColor="#FFFFFF"
+                android:background="#000000"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Button4"
+                android:background="#00FF00"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Button5"
+                android:background="#0000FF"
+                />
+
+        </LinearLayout>
+
+        <!-- A TextView that contains "Firefox" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Firefox"
+            android:background="#f44336"
+            android:gravity="center"
+            android:textSize="60sp"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
